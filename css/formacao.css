@@ -143,3 +143,9 @@
   position: initial;
   margin-bottom: 10px;
 }
+@media (max-width: 400px) {
+  .formacao-conteiner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
