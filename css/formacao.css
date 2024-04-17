@@ -127,7 +127,7 @@
 
 @media (max-width: 800px) {
   .formacao-conteiner {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1f;
     padding: 60px 20px;
     gap: 40px;
   }
