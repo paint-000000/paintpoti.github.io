@@ -1,5 +1,5 @@
 
-.introduçao {
+.introducao {
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;
@@ -9,13 +9,13 @@
   align-items: center;
 }
 
-.introduçao h1 {
+.introducao h1 {
   font-size: 4.5rem;
   line-height: 1.125;
   margin-bottom: 30px;
   position: relative;
 }
-.introduçao h1::before {
+.introducao h1::before {
   content: "";
   display: block;
   width: 130px;
@@ -27,35 +27,35 @@
   z-index: -1;
 }
 
-.introduçao p {
+.introducao p {
   font-size: 1.5rem;
   color: #525252;
 }
 @media (max-width: 1000px) {
-  .introduçao h1 {
+  .introducao h1 {
     font-size: 3rem;
   }
 }
 
 @media (max-width: 800px) {
-  .introduçao h1 {
+  .introducao h1 {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
-  .introduçao h1 {
+  .introducao h1 {
     font-size: 2rem;
   }
-  .introduçao h1::before {
+  .introducao h1::before {
     width: 30px;
     height: 10px;
     left: 0px;
   }
 }
 @media (max-width: 400px) {
-  .introduçao {
+  .introducao {
     grid-template-columns: 1fr;
   }
-  .introduçao img {
+  .introducao img {
     display: none;
   }
 }
